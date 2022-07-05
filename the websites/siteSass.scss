@@ -1,0 +1,33 @@
+$basic-color: #000000;
+$primary-font: 'Poppins';
+@mixin footerDiv-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+@mixin footerDiv-desktop {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    vertical-align: baseline;
+    height: 260px;
+    width: auto;
+}
+@mixin footer-mobile {
+    height: 721px;
+    width: auto;
+    background-color: $footer-color;
+    padding: 80px 15px;
+}
+@mixin footer-desktop {
+    height: 260px;
+}
+@mixin thinFont {
+    font-family: $primary-font;
+    font-weight: 300;
+    font-size: 16px;
+}
+@mixin boldFont  {
+    font-family: $primary-font;
+    font-weight: 600;
+    font-size: 18px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello!</title>
+</head>
+<body>
+    <h1>Snapshots</h1>
+    <ul>
+        <li><a href="/AutoDrone Images/drone_light 1.png" onclick="showPic(this); return false;">Highlight 1</a></li>
+        <li><a href="/AutoDrone Images/drone_light 2.png" onclick="showPic(this); return false;">Highlight 2</a></li>
+        <li><a href="/AutoDrone Images/drone_light 3.png" onclick="showPic(this); return false;">Highlight 3</a></li>
+        <li><a href="/AutoDrone Images/phantom_drone 1.png" onclick="showPic(this); return false;">Highlight 4</a></li>
+    </ul>
+    <img src="/AutoDrone Images/mini_drone 1.png" alt="placeholder-img" id="placeholder">
+</body>
+<script>
+    function showPic(whichPic) {
+        let source  = whichPic.getAttribute("href");
+        let placeholder = document.getElementById("placeholder");
+        placeholder.setAttribute("src", source);
+    }
+    //let picTag = document.getElementsByTagName("a");
+    //picTag.addEventListener(click, showPic(this));
+</script>
+</html>

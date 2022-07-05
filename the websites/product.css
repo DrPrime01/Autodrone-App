@@ -1,0 +1,226 @@
+@font-face {
+    font-family: Poppins;
+    src: url("/Poppins/Poppins-Regular.ttf");
+}
+body {
+    margin: 0;
+    padding: 0;
+    column-count: 1;
+    font-family: 'Poppins';
+}
+header {
+    border: 1px solid black;
+    background: black;
+    height: 50px;
+    width: auto;
+    color: white;
+    padding: 25px;
+}
+#dropdownMenubtn {
+    display: none;
+    background: transparent;
+    border: none;
+    float: right;
+}
+
+nav {
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+#dropdown {
+    float: right;
+    position: relative;
+    top: 0;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+}
+.autodrone-logo {
+    position: relative;
+    top: 3px;
+    left: 65px;
+}
+.container-fluid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+#productsPics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    row-gap: 15px;
+    height: 725px;
+    width: 690px;
+}
+.selectedPic {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    height: 535px;
+    width: 715px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #E5E5E5;
+}
+.selectedPic>img {
+    border-radius: 10px;
+}
+.thumbnailPics {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid #E5E5E5;
+    align-items: center;
+    border-radius: 10px;
+    width: 725px;
+}
+.thumbnailPics>div {
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+}
+.thumbnailPics div>img {
+    border-radius: 5px;
+}
+.productPics {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.getNowBtn {
+    border-radius: 30px;
+    background: #2E4DEC;
+    color: white;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    padding: 7px 40px;
+    border: transparent;
+}
+.getNowBtn:hover {
+    background: #1ABC9C;
+}
+#ProductFeature {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+#desc {
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+.pic1 {
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: olive;
+}
+#ProductFeature {
+    height: 481px;
+    width: 296px;
+    margin-left: 20px;
+}
+.features {
+    height: 238px;
+    width: 264px;
+}
+.features>div {
+    padding-bottom: 10px;
+}
+#desc {
+    height: auto;
+    width: 1000px;
+}
+
+#dropdown-list {
+    display: inline;
+    margin: 0 150px;
+}
+nav ul>li {
+    display: inline;
+    list-style: none;
+    padding: 5px 45px;
+}
+nav ul li>a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+}
+nav ul li>a:hover {
+    color: #1ABC9C;
+    cursor: pointer;
+}
+main {
+    height: 80%;
+    width: auto;
+    margin: 100px;
+}
+footer {
+    height: 200px;
+    width: auto;
+    background: #000000;
+    padding: 80px 15px;
+}
+.footerDiv ul>li {
+    list-style-type: none;
+}
+.footerDiv a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.footerDiv a:hover {
+    color: #1ABC9C;
+}
+.logoArea > span {
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    vertical-align: middle;
+    padding-left: 38px;
+    
+}
+.logoArea>p {
+    color: #ffffff;
+    padding-left: 38px;
+    padding-right: 40px;
+}
+.footerDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+}
+.explore h3 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    padding-left: 38px;
+}
+.explore address {
+    display: block;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    color: #ffffff;
+    padding-left: 38px;
+    font-style: normal;
+}

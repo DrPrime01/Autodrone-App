@@ -1,0 +1,586 @@
+@font-face {
+    font-family: Poppins;
+    src: url("/Poppins/Poppins-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    column-count: 1;
+}
+header {
+    border: 1px solid black;
+    background: black;
+    height: 622px;
+    width: auto;
+    color: white;
+    padding: 25px;
+}
+img[alt="header image"] {
+    height: 220px;
+    width: 243px;
+    position: absolute;
+    left: 60px;
+    top: 445px;
+}
+main {
+    height: 80%;
+    width: auto;
+}
+footer {
+    height: 721px;
+    width: auto;
+    background: #000000;
+    padding: 80px 15px;
+}
+.header-text {
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Poppins';
+    position: relative;
+    top: 85px;
+}
+.header-text span > h3 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40.76px;
+}
+.header-text p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #969696;
+}
+
+.getNowBtn {
+    border-radius: 30px;
+    background: #2E4DEC;
+    color: white;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    padding: 15px 20px;
+    border: transparent;
+}
+.getNowBtn:hover {
+    background: #1ABC9C;
+}
+.ultralite-BestRes {
+    background: white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ultralite {
+    background-image: url("/AutoDrone Images/ultra_light 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    width: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.ultralite span > h3 {
+    font-size: 36px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 52px;
+}
+.ultralite p {
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    line-height: 44.5px;
+    color: #888888;
+    padding: 0 10px;
+}
+.BestRes {
+    background-image: url("/AutoDrone Images/best_resolution 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    width: auto;
+    text-align: center;
+}
+.BestRes span > h3 {
+    font-size: 36px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 40px;
+    color: white;
+}
+.BestRes p {
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    line-height: 35px;
+    color: #888888;
+    padding: 0 10px;
+}
+.whyDroneLite {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background: #F7F8FA;
+    padding-bottom: 20px;
+}
+.dronePics, .WDLArticle {
+    text-align: center;
+}
+img[alt="dronePic1"] {
+    height: 236px;
+    width: 227px;
+}
+.WDLArticle {
+    padding: 0 15px;
+}
+.WDLArticle span>h3 {
+    font-size: 36px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 40px;
+    color: #222222;
+}
+.WDLArticle p {
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    line-height: 35px;
+    color: #222222;
+}
+.fourInnerDivs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 100px;
+    grid-gap: 20px;
+    text-align: center;
+    gap: 20px;
+    padding: 0 15px;
+}
+.New-Product {
+    display: flex;
+    flex-direction: column;
+}
+.newProduct1 {
+    text-align: center;
+    padding: 20px;
+}
+.newProduct1 span>h3 {
+    font-size: 36px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 40px;
+    color: #222222;
+}
+.newProduct1 p {
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    line-height: 35px;
+    color: #888888;
+}
+.card {
+    height: 648px;
+    text-align: center;
+}
+.container {
+    padding: 20px;
+}
+.container h3 {
+    font-size: 36px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 40px;
+    color: #222222;
+}
+.container p {
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    line-height: 35px;
+    color: #222222;
+}
+.card > img {
+    height: 240px;
+    width: 410px;
+}
+.getNowBtn {
+    border-radius: 30px;
+    background: #2E4DEC;
+    color: white;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    padding: 15px 80px;
+    border: transparent;
+}
+.getNowBtn:hover {
+    background: #1ABC9C;
+}
+.testimonial {
+    height: 1013px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 80px;
+    
+}
+.cardTest1 {
+    height: 240px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px 0;
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1;
+    padding: 0 15px;
+    align-items: stretch;
+    justify-content: space-evenly;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #b1b1b1;
+    transition: 0.3s;
+}
+.testifyImage > img {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+.cardTest1 p {
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    line-height: 30px;
+    color: #222222;
+}
+.identity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.name1 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    line-height: 30px;
+}
+.job {
+    font-size: 18px;
+    color: #888888;
+    font-family: 'Poppins';
+    line-height: 27px;
+}
+.testimonial>h3 {
+    line-height: 62.5px;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    padding-left: 20px;
+}
+.footerDiv ul>li {
+    list-style-type: none;
+}
+.footerDiv a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.footerDiv a:hover {
+    color: #1ABC9C;
+}
+.logoArea > span {
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    vertical-align: middle;
+    padding-left: 38px;
+    
+}
+.logoArea>p {
+    color: #ffffff;
+    padding-left: 38px;
+    padding-right: 40px;
+}
+.footerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+}
+.explore h3 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    padding-left: 38px;
+}
+.explore address {
+    display: block;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    color: #ffffff;
+    padding-left: 38px;
+    font-style: normal;
+}
+#dropdown {
+    display: block;
+    position: absolute;
+    margin: 0;
+    right: 0;
+    z-index: 1;
+}
+#dropdownMenubtn {
+    position: absolute;
+    right: 0;
+    display: block;
+    background: transparent;
+    border: none;
+}
+#dropdown-list li {
+    list-style-type: none;
+}
+#dropdown-list li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 300;
+}
+#dropdown-list li a:active {
+    color: #1ABC9C;
+}
+
+/*for desktop view*/
+@media screen and (min-width: 600px) {
+    header {
+        column-count: 1;
+        height: 750px;
+        width: auto;
+        background: url("/AutoDrone Images/Hero Image 1.png");
+        background-color: #000000;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .header-text {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .header-text p {
+        height: 54px;
+        width: 684px;
+        text-align: center;
+        color: #969696;
+    }
+    img[alt="header image"] {
+        visibility: hidden;
+    }
+    nav {
+        position: absolute;
+        width: auto;
+        height: auto;
+        top: 60px;
+    }
+    .autodrone-logo {
+        position: relative;
+        top: 3px;
+        left: 65px;
+    }
+    #dropdown {
+        position: relative;
+        top: 0;
+        left: 0px;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    #dropdown-list {
+        display: inline;
+        margin: 0 150px;
+    }
+    nav ul>li {
+        display: inline;
+        list-style: none;
+        padding: 5px 45px;
+    }
+    nav ul li>a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Poppins';
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    nav ul li>a:hover {
+        color: #1ABC9C;
+        cursor: pointer;
+    }
+    .ultralite-BestRes {
+        column-count: 2;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    #dropdownMenubtn {
+        display: none;
+    }
+    .ultralite, 
+    .BestRes {
+        height: 660px;
+        width: 680px;
+        padding: auto;
+    }
+    .ultralite {
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+    .header-text {
+        vertical-align: middle;
+        text-align: center;
+    }
+   
+    .whyDroneLite {
+        height: 430px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        vertical-align: middle;
+        padding: 0 40px;
+    }
+    .WDLArticle {
+        text-align: start;
+        height: auto;
+        width: 702px;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+    .whyDroneLite 
+    img[alt="dronePic1"] {
+        margin-top: 80px;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .fourInnerDivs {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: auto;
+        grid-gap: 20px;
+        text-align: center;
+        gap: 20px;
+        padding: 0 15px;
+        margin-top: 60px;
+        height: auto;
+        width: 678px;
+    }
+    .newProduct1 {
+        width: auto;
+        height: 134px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+    .newProduct1 p {
+        height: 64px;
+        width: 479px;
+    }
+    .card {
+        height: 548px;
+        width: 400px;
+        border-radius: 10px;
+        margin: 10px 0;
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 15px 15px;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0.5px 0.5px 0.5px 0.5px #b1b1b1;
+        transition: 0.3s;
+        border: 1px solid #b1b1b1;
+    }
+    .card img {
+        height: 200px;
+        width: 310px;
+        border-radius: 10px;
+        margin-top: 60px;
+    }
+    .allCard {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: auto;
+        overflow: scroll;
+        gap: 40px;
+        grid-gap: 40px;
+        margin: 40px 80px;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .container h3 {
+        line-height: 30px;
+        height: 20px;
+        margin-top: -5px;
+    }
+    .container p {
+        line-height: 27px;
+        height: 114px;
+        padding: 0 36px 30px 37px;
+    }
+    #newproduct1 {
+        text-align: center;
+    }
+    #droneLight2 {
+        line-height: 27px;
+    }
+    .allCard::-webkit-scrollbar {
+        display: none;
+    }
+    .testimonial {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 438px;
+        margin-left: 90px;
+    }
+    .testimonial>h3 {
+        height: 108px;
+        width: 331px;
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    
+    .allCardTest1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+       
+    }
+    
+   
+    .testimonial .cardTest1 {
+        border: 1px solid #b1b1b1;
+    }
+    .footerDiv {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        vertical-align: baseline;
+        height: 200px;
+        width: auto;
+    }
+    footer {
+        height: 200px;
+    }
+}
+/*This is testing SASS*/
+
